@@ -75,7 +75,7 @@ def main(): # хуиня
             show_text = not show_text 
             last_switch_time = current_time
 
-        glRotatef(1, 1, 1, 0)  # Вращение куба
+        glRotatef(1, 1, 1, 0)  # РАБОТАЕТ И РАБОТАЕТ. НЕ ТРОЖЬ
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT)  
 
         Cube()  
